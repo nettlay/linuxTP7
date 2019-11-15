@@ -1,0 +1,29 @@
+storefront_server: https://sfnsvr.sh.dto/citrix/NewStore/discovery
+pnagent_server: https://sfnsvr.sh.dto/citrix/newstore/pnagent/config.xml
+user: automation
+password: Shanghai2014
+domain: sh
+connection_table_current_mode:
+- 314.5
+- 130.5
+connection_table_domain:
+- 482.20000000000005
+- 455.5
+connection_table_password:
+- 482.20000000000005
+- 424.5
+connection_table_url:
+- 486.20000000000005
+- 160.5
+connection_table_use_predefined:
+- 278.5
+- 345.5
+connection_table_user:
+- 487.5999999999999
+- 393.0
+smart_card:
+- 200
+- 375.5
+gmalto:
+- 482.20000000000005
+- 445.5
