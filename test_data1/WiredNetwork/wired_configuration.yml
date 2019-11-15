@@ -1,0 +1,34 @@
+# Define local variables
+vpn_reg: root/Network/VPN
+target_type: Cisco
+vpn_auto_start: 1
+
+# VPN Configuration
+vpn_cisco_gw: 15.83.244.9
+vpn_cisco_gn: vpnclient
+vpn_cisco_up: neoware
+vpn_cisco_gp: neoware
+vpn_cisco_un: neoware
+vpn_destination: 10.10.10.1
+vpn_credentials_gui: VPN Credentials
+
+# Wired pictures
+wired_pictures:
+  1920x1200:
+    control_panel: [control_panel,control_panel_1]
+    control_panel_toolbar: [control_panel_toolbar, control_panel_toolbar_1]
+    start_menu: [start_menu, start_menu_1]
+    discard_control_panel: [discard_control_panel, discard_control_panel_1]
+    wired_icon: [wired_icon, wired_icon_1]
+    wired_icon_stop: [wired_icon_stop, wired_icon_stop_1]
+    vpn_control_panel: [vpn_control_panel, vpn_control_panel_1]
+    vpn_tab_in_control_panel: [vpn_tab_in_control_panel, vpn_tab_in_control_panel_1]
+  1366x768:
+    control_panel: [control_panel]
+    control_panel_toolbar: [control_panel_toolbar]
+    start_menu: [start_menu]
+    discard_control_panel: [discard_control_panel]
+    wired_icon: [wired_icon]
+    wired_icon_stop: [wired_icon_stop]
+    vpn_control_panel: [vpn_control_panel]
+    vpn_tab_in_control_panel: [vpn_tab_in_control_panel]

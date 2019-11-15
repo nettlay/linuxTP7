@@ -1,0 +1,87 @@
+#RDP_Test: [rfx_win10]
+FTP_Server: 15.83.240.98
+Username: automation
+Password: Shanghai2014
+Domain: sh
+rdp_file_path: \\Automation\\Linux\flags
+test_item:
+  rdp_normal_logon: //15.83.240.98/Automation/Linux/scripts/logoff.exe
+  rdp_smartcard_logon: //15.83.240.98/Automation/Linux/scripts/logoff.exe
+RDP_Server:
+  rfx_win7: rfxwin7-auto
+  rfx_win10: rfxw10-auto
+  win7_on_esx: Linux-w764-c01
+  win10_on_HyperV: rfxw10-auto
+  win10_on_HyperV1: rfxw10-auto
+  win10_on_esx: Linux-w10-c01
+  Freerdp_rd_gateway_w2012: W2012TSG.test.com
+  win10: rfxw10-auto
+  RDP_spec: rfxw81-auto
+Offset_Map:
+  rdp_icon: [Test_Data/RDP/rdp_icon_10_5.png, Test_Data/RDP/rdp_icon1_10_5.png, Test_Data/RDP/rdp_icon2_10_5.png, Test_Data/RDP/rdp_icon3_10_5.png]
+  rdp_icon_active: [Test_Data/RDP/rdp_icon_active_10_5.png]
+  rdp_certificate_accept: [Test_Data/RDP/rdp_certificate_accept_5_5.png, Test_Data/RDP/rdp_certificate_accept1_5_5.png]
+  top_left: [Test_Data/RDP/rdp_title_0_0.png, Test_Data/RDP/rdp_title1_0_0.png]
+  error_wnd: [Test_Data/RDP/rdp_server_error_5_5.png]
+  close_button: [Test_Data/RDP/rdp_close_5_5.png]
+  network: [40,70]
+  service: [40,100]
+  window: [40,130]
+  options: [40,160]
+  local_resources: [40,180]
+  experience: [40, 220]
+  diagnostics: [40, 250]
+  advanced: [40, 280]
+  connection_name: [500,80]
+  address: [500,110]
+  single_sign_on: [200,180]
+  ask_for_credentials: [200,210]
+  user_password: [200,240]
+  username_box: [500,280]
+  password_box: [500,310]
+  domain_box: [500,340]
+  ok_button: [Test_Data/RDP/rdp_ok_5_3.png]
+  apply_button: [420,580]
+  cancel_button: [580,580]
+  key_usbr: [420,195]
+  key_mapping: [320,195]
+RDP_Logon_Win10:
+  Server: rfx_win10
+  Username: automation
+  Password: Shanghai2014
+  Domain: sh.dto
+FreeRDP_Logon_Win10:
+  Server: win10_on_esx
+  Username: automation
+  Password: Shanghai2014
+  Domain: sh.dto
+RDP_Logon_SpecUser1:
+  Server: RDP_spec
+  Username: spcpass11
+  Password: '!@#$%^&*()'
+  Domain: sh.dto
+RDP_Logon_SpecUser2:
+  Server: RDP_spec
+  Username: spcpass21
+  Password: +=_,-?<>~
+  Domain: sh.dto
+RDP_Logon_SpecUser3:
+  Server: RDP_spec
+  Username: spcpass31
+  Password: /;[]{}:|
+  Domain: sh.dto
+RDP_Logon_SpecUser4:
+  Server: RDP_spec
+  Username: space user1
+  Password: ' space user'
+  Domain: sh.dto
+RDP_Logon_SpecUser5:
+  Server: RDP_spec
+  Username: '!~#$%^&()_-`{}'''
+  Password: neoware
+  Domain: sh.dto
+RDP_Logon_SpecUser6:
+  Server: RDP_spec
+  Username: spcpass71
+  Password: S\123456789
+  Domain: sh.dto

@@ -1,0 +1,8 @@
+#ssh
+ssh_server_address: 15.83.240.64
+ssh_user_name: neoware
+ssh_pass_word: neoware
+#telnet
+telnet_server_address: 15.83.240.64
+telnet_user_name: neoware
+telnet_pass_word: neoware

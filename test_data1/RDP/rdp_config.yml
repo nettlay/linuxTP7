@@ -1,0 +1,8 @@
+FTP_Server: 15.83.240.98
+Username: automation
+Password: Shanghai2014
+Domain: sh
+rdp_file_path: \\Linux\\Log\\RDP
+Test Name:
+  rdp_smart_card_logon: c:\scripts\rdp_smart_card_logon.exe
+  rdp_normal_logon: c:\scripts\logoff.exe
