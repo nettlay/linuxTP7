@@ -1,0 +1,21 @@
+rdp_high_level:
+- 312.5
+- 133.0
+rdp_local_resource:
+- 74.5
+- 174.0
+rdp_table_domain:
+- 563.3
+- 343.0
+rdp_table_password:
+- 559.7
+- 312.5
+rdp_table_url:
+- 578.7
+- 113.0
+rdp_table_use_predefined:
+- 298.5
+- 233.0
+rdp_table_user:
+- 564.9000000000001
+- 281.0

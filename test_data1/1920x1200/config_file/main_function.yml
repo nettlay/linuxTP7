@@ -1,0 +1,6 @@
+mf.show_title(): Y
+mf.show_resolution_and_network(): Y
+mf.close_vnc(): Y
+mf.set_lan_auto(): Y
+mf.initial_screenshot(): Y
+mf.initial_report(): Y

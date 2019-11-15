@@ -1,0 +1,12 @@
+apply_network_change:
+- 828.0
+- 613.5
+apply_vnc_change:
+- 828.0
+- 575.5
+enable_vnc_shadow:
+- 281.0
+- 64.5
+method_of_connection:
+- 173.0
+- 17.0
